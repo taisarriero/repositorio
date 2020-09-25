@@ -5,9 +5,8 @@ int main ()
 
 	printf ("\nDigite o peso, em kg: ");
 	scanf ("%f", &P);
-	printf ("\nDigite a altura, em cm: ");
+	printf ("\nDigite a altura, em m, utilizando ponto como separador decimal: ");
 	scanf ("%f", &A);
-	A = A/100;
 	IMC = P / (A*A);
 	printf ("\nIMC = %.2f", IMC);
 	return 0;
